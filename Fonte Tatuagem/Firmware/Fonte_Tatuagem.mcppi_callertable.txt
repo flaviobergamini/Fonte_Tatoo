@@ -5,4 +5,8 @@ main
 	PWM1_Start
 	PWM1_Set_Duty
 		Mul_16x16_U
+	control_veloc
+		PWM1_Set_Duty
+			Mul_16x16_U
 interrupt
+	display

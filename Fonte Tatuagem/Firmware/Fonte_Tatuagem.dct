@@ -316,7 +316,8 @@ cmif
 cmif_bit
 comfrem
 compare_double
-cont
+control
+control_veloc
 cos
 cose3
 cosh
@@ -365,8 +366,6 @@ delay_5ms
 delay_80us
 delay_8ms
 delay_cyc
-disp1
-disp2
 display
 div
 div_16x16_s
@@ -420,7 +419,6 @@ fabs
 ferr
 ferr_bit
 fixsign32
-flag
 flash_read
 flash_write
 floattostr

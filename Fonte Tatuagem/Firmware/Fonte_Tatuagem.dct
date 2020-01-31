@@ -554,6 +554,8 @@ manchester_1
 manchester_out
 max
 med
+med_d
+med_u
 memchr
 memcmp
 memcpy
@@ -575,6 +577,7 @@ mul_32x32_s
 mul_32x32_u
 mul_8x8_s
 mul_8x8_u
+mult
 not_a
 not_a_bit
 not_address
@@ -797,6 +800,7 @@ s1d13700_h_line
 s1d13700_hdot_scr
 s1d13700_image
 s1d13700_init
+s1d13700_invert
 s1d13700_layer_flash_16hz
 s1d13700_layer_flash_2hz
 s1d13700_layer_off

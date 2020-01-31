@@ -4,10 +4,10 @@ main
 	PWM1_Init
 	PWM1_Start
 	PWM1_Set_Duty
-		Mul_16x16_U
+		Mul_16X16_U
 	ADC_Read
 		Delay_22us
-	Word2Double
+	word2double
 		NRM3232
 			RES032
 			SETFUN32
@@ -21,21 +21,14 @@ main
 		RES032
 		SETFOV32
 		SETFUN32
-	Sub_32x32_FP
-		Add_32x32_FP
-			NRM4032
-				RES032
-				SETFUN32
-				FIXSIGN32
-				SETFOV32
-			NRM3232
-				RES032
-				SETFUN32
-				FIXSIGN32
-			SETFOV32
 	Compare_Double
+	double2int
+		SETIOV3224
+	Div_16x16_S
+		Div_16x16_S_L
 	control_veloc
 		PWM1_Set_Duty
-			Mul_16x16_U
+			Mul_16X16_U
 interrupt
 	display
+	Compare_Double
